@@ -1,6 +1,6 @@
 # Solvea 媒体 Outreach 追踪
 
-> 更新：2026-04-03 | 已投：37 | 待投：7
+> 更新：2026-04-03 | 已投：41 | 待投：3 (需人工 CAPTCHA)
 
 ## 🇺🇸 美国 (US)
 
@@ -20,7 +20,7 @@
 | [The Register](https://theregister.com) | IT新闻 | theregister@ | ✅ 已投 | 2026-04-03 |
 | [Ben's Bites](https://bensbites.co) | AI Newsletter (200K+) | ben@ | ✅ 已投 | 2026-04-03 |
 | [TLDR Newsletter](https://tldr.tech) | 科技Newsletter | dan@ | ✅ 已投 | 2026-04-03 |
-| [AI News](https://artificialintelligence-news.com) | AI行业动态 | 联系表单 | ⏳ 待投 | — |
+| [AI News](https://artificialintelligence-news.com) | AI行业动态 | 联系表单 | ✅ 已投 | 2026-04-03 |
 
 ## 🇬🇧 英国 (UK)
 
@@ -37,9 +37,9 @@
 | 媒体 | 类型 | 联系人 | 状态 | 发送时间 |
 |------|------|--------|------|---------|
 | [Heise Online](https://heise.de) | IT新闻/技术 | Sylke Wilde, webmaster@ | ✅ 已投 | 2026-04-03 |
-| [t3n](https://t3n.de) | 数字科技/创业 | 联系表单 | ⏳ 待投 | — |
-| [Gründerszene](https://gruenderszene.de) | 德国创业媒体 | 联系表单 | ⏳ 待投 | — |
-| [Computerwoche](https://computerwoche.de) | IT管理 | 联系表单 | ⏳ 待投 | — |
+| [t3n](https://t3n.de) | 数字科技/创业 | redaktion@ | ✅ 已投 | 2026-04-03 |
+| [Gründerszene](https://gruenderszene.de) | 德国创业媒体 | redaktion@ | ✅ 已投 | 2026-04-03 |
+| [Computerwoche](https://computerwoche.de) | IT管理 | info@ | ⚠️ 编辑联系困难 | — |
 | [EU-Startups](https://eu-startups.com) | 欧洲创业 | news@ | ✅ 已投 | 2026-04-03 |
 | [Tech.eu](https://tech.eu) | 欧洲科技 | editors@ | ✅ 已投 | 2026-04-03 |
 
@@ -50,9 +50,9 @@
 | [BRIDGE](https://thebridge.jp) | 日本科技/创业 | contact@, info@ | ✅ 已投 | 2026-04-03 |
 | [ASCII.jp](https://ascii.jp) | 日本科技/数字 | info@ | ✅ 已投 | 2026-04-03 |
 | [Nikkei XTech](https://xtech.nikkei.com) | 日经AI/前沿技术 | info@ | ✅ 已投 | 2026-04-03 |
-| [ITmedia](https://itsmedia.co.jp) | 日本IT新闻 | 联系表单 | ⏳ 待投 | — |
-| [The Japan Times](https://japantimes.co.jp) | 英文日本新闻 | 联系表单 | ⏳ 待投 | — |
-| [Nikkei Asia](https://asia.nikkei.com) | 亚洲科技/商业 | 联系表单 | ⏳ 待投 | — |
+| [ITmedia](https://itsmedia.co.jp) | 日本IT新闻 | 联系表单 | ⚠️ 广告表单投递 | 2026-04-03 |
+| [The Japan Times](https://japantimes.co.jp) | 英文日本新闻 | 联系表单 | ⚠️ CAPTCHA阻断 | — |
+| [Nikkei Asia](https://asia.nikkei.com) | 亚洲科技/商业 | andrew.sharp@ | ✅ 已投 | 2026-04-03 |
 
 ## 🌏 亚洲其他 (Asia)
 
