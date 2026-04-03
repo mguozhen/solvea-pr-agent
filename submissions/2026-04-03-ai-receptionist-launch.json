@@ -4,21 +4,57 @@
   "submitted_at": "2026-04-03",
   "platforms": {
     "us": {
-      "einpresswire": {"status": "account_created", "account": "boyuan@solvea.cx", "pending_payment": true},
-      "prlog":        {"status": "pending"},
-      "openpr":       {"status": "pending"},
-      "pr_com":       {"status": "pending"},
-      "1888press":    {"status": "pending"},
-      "prfree":       {"status": "pending"},
-      "newswiretoday":{"status": "pending"},
-      "prunderground":{"status": "pending"}
+      "einpresswire": {
+        "status": "account_created",
+        "account": "boyuan@solvea.cx",
+        "pending_payment": true
+      },
+      "prlog": {
+        "status": "captcha_blocked",
+        "note": "Email already in system; reCAPTCHA blocking automation"
+      },
+      "openpr": {
+        "status": "submitted",
+        "url": "https://www.openpr.com/news/solvea",
+        "note": "Published after 3 CAPTCHA attempts"
+      },
+      "pr_com": {
+        "status": "captcha_blocked",
+        "note": "Google reCAPTCHA v2 — cannot automate"
+      },
+      "1888press": {
+        "status": "quota_exceeded",
+        "note": "Daily free quota hit; account + draft saved"
+      },
+      "prfree": {
+        "status": "submitted",
+        "url": "https://prfree.org/publish.php?id=69d031b0e46b2fb85e0a5fed"
+      },
+      "newswiretoday": {
+        "status": "pending_credits",
+        "note": "Account created; free plan has no posting credits"
+      },
+      "prunderground": {
+        "status": "paid_only",
+        "note": "Minimum $74.99/release, no free tier"
+      }
     },
     "jp": {
-      "prtimes":      {"status": "pending_payment"},
-      "dreamnews":    {"status": "pending"},
-      "valupress":    {"status": "pending"},
-      "atpress":      {"status": "pending"},
-      "prtree":       {"status": "pending"}
+      "prtimes": {
+        "status": "pending_payment"
+      },
+      "dreamnews": {
+        "status": "pending"
+      },
+      "valupress": {
+        "status": "pending"
+      },
+      "atpress": {
+        "status": "pending"
+      },
+      "prtree": {
+        "status": "pending"
+      }
     }
   }
 }
