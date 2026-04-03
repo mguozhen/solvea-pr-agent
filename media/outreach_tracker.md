@@ -1,36 +1,50 @@
 # Solvea 媒体 Outreach 追踪
 
-> 更新时间：2026-04-03
+> 更新：2026-04-03 | 已投：17 | 待投：7
 
-## Tier 1 — 主流科技媒体
+## 🇺🇸 美国 (US)
 
-| 媒体 | 类型 | 角度 | 状态 | 发送时间 |
-|------|------|------|------|---------|
-| [TechCrunch](https://techcrunch.com) | 创业/融资 | SaaS无月费模式 / AI SMB | ✅ 已投 | 2026-04-03 |
-| [The Verge](https://www.theverge.com) | 科技产品/文化 | AI产品体验角度 | ⏳ 待投 | — |
-| [Wired](https://www.wired.com) | 科技与社会深度 | 本地商业AI化趋势 | ⏳ 待投 | — |
-| [Ars Technica](https://arstechnica.com) | 技术深度 | 技术架构/omnichannel AI | ⏳ 待投 | — |
-| [VentureBeat](https://venturebeat.com) | AI/企业科技 | AI receptionist市场分析 | ⏳ 待投 | — |
-| [MIT Technology Review](https://www.technologyreview.com) | 学术前沿 | AI在本地服务业的落地 | ⏳ 待投 | — |
-| [The Information](https://www.theinformation.com) | AI独家深度 | 独家数据/定价模式革新 | ⏳ 待投 | — |
+| 媒体 | 类型 | 联系人 | 状态 | 发送时间 |
+|------|------|--------|------|---------|
+| [TechCrunch](https://techcrunch.com) | 创业/融资 | Anna Heim, Kyle Wiggers, tips@ | ✅ 已投 | 2026-04-03 |
+| [The Verge](https://theverge.com) | 科技产品/文化 | Hayden Field, tips@ | ✅ 已投 | 2026-04-03 |
+| [Wired](https://wired.com) | 科技与社会深度 | Will Knight, press@ | ✅ 已投 | 2026-04-03 |
+| [Ars Technica](https://arstechnica.com) | 技术深度分析 | Benj Edwards | ✅ 已投 | 2026-04-03 |
+| [VentureBeat](https://venturebeat.com) | AI & 企业科技 | Carl Franzen, Emilia David, tips@ | ✅ 已投 | 2026-04-03 |
+| [MIT Technology Review](https://technologyreview.com) | 学术级科技前沿 | Rachel Courtland | ✅ 已投 | 2026-04-03 |
+| [The Information](https://theinformation.com) | AI行业深度独家 | Stephanie Palazzolo | ✅ 已投 | 2026-04-03 |
+| [Import AI](https://jack-clark.net) | Jack Clark AI周报 | Jack Clark | ✅ 已投 | 2026-04-03 |
+| [AI News](https://artificialintelligence-news.com) | AI行业动态 | 联系表单 | ⏳ 待投 | — |
 
-## Tier 2 — 垂直/Newsletter
+## 🇬🇧 英国 (UK)
 
-| 媒体 | 类型 | 角度 | 状态 | 发送时间 |
-|------|------|------|------|---------|
-| [Import AI](https://jack-clark.net) | AI周报(Jack Clark) | AI agent实际商业落地 | ⏳ 待投 | — |
-| [AI News](https://www.artificialintelligence-news.com) | AI动态 | 产品发布新闻 | ⏳ 待投 | — |
+| 媒体 | 类型 | 联系人 | 状态 | 发送时间 |
+|------|------|--------|------|---------|
+| [Silicon Republic](https://siliconrepublic.com) | 科技/创业 | editorial@ | ✅ 已投 | 2026-04-03 |
+| [Sifted](https://sifted.eu) | 欧洲科技/创业 | news@ | ✅ 已投 | 2026-04-03 |
+| [Silicon UK](https://silicon.co.uk) | 企业科技 | David Howell | ✅ 已投 | 2026-04-03 |
+| [TechRadar](https://techradar.com) | 科技产品评测 | news@ | ✅ 已投 | 2026-04-03 |
+| [The Next Web](https://thenextweb.com) | 科技/创业 | info@ | ✅ 已投 | 2026-04-03 |
 
-## 已投联系人
+## 🇩🇪 德国 (Germany)
 
-| 姓名 | 媒体 | 邮箱 | 发送状态 |
-|------|------|------|---------|
-| Anna Heim | TechCrunch | anna.heim@techcrunch.com | ✅ 已发 |
-| Kyle Wiggers | TechCrunch | kyle.wiggers@techcrunch.com | ✅ 已发 |
-| TechCrunch Tips | TechCrunch | tips@techcrunch.com | ✅ 已发 |
+| 媒体 | 类型 | 联系人 | 状态 | 发送时间 |
+|------|------|--------|------|---------|
+| [Heise Online](https://heise.de) | IT新闻/技术 | Sylke Wilde, webmaster@ | ✅ 已投 | 2026-04-03 |
+| [t3n](https://t3n.de) | 数字科技/创业 | 联系表单 | ⏳ 待投 | — |
+| [Gründerszene](https://gruenderszene.de) | 德国创业媒体 | 联系表单 | ⏳ 待投 | — |
+| [Computerwoche](https://computerwoche.de) | IT管理 | 联系表单 | ⏳ 待投 | — |
 
-## Pitch 模板说明
+## 🇯🇵 日本 (Japan)
 
-- **Tier 1 主流媒体**：强调 story angle，控制在 150 字以内，不发新闻稿全文
-- **Newsletter**：可以稍长，附上数据和产品链接
-- **Follow-up**：首次发送 48 小时后如无回复，发一封 1 句话 follow-up
+| 媒体 | 类型 | 联系人 | 状态 | 发送时间 |
+|------|------|--------|------|---------|
+| [BRIDGE](https://thebridge.jp) | 日本科技/创业 | contact@, info@ | ✅ 已投 | 2026-04-03 |
+| [ASCII.jp](https://ascii.jp) | 日本科技/数字 | info@ | ✅ 已投 | 2026-04-03 |
+| [Nikkei XTech](https://xtech.nikkei.com) | 日经AI/前沿技术 | info@ | ✅ 已投 | 2026-04-03 |
+| [ITmedia](https://itsmedia.co.jp) | 日本IT新闻 | 联系表单 | ⏳ 待投 | — |
+| [The Japan Times](https://japantimes.co.jp) | 英文日本新闻 | 联系表单 | ⏳ 待投 | — |
+| [Nikkei Asia](https://asia.nikkei.com) | 亚洲科技/商业 | 联系表单 | ⏳ 待投 | — |
+
+---
+_Auto-updated by Solvea PR Agent_
