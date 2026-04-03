@@ -1,0 +1,82 @@
+name: Daily PR Coverage Monitor
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 9am JST / 1am UTC daily
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run monitor
+        run: python3 scripts/monitor.py
+
+      - name: Commit monitor results
+        run: |
+          git config user.name "PR Agent"
+          git config user.email "boyuan@solvea.cx"
+          git add submissions/
+          git diff --staged --quiet || git commit -m "chore: daily monitor report $(date +%Y-%m-%d) [skip ci]"
+          git push
+
+      - name: Send DingTalk report
+        if: always()
+        env:
+          DINGTALK_APP_KEY: ${{ secrets.DINGTALK_APP_KEY }}
+          DINGTALK_APP_SECRET: ${{ secrets.DINGTALK_APP_SECRET }}
+          DINGTALK_CONV_ID: ${{ secrets.DINGTALK_CONV_ID }}
+        run: |
+          python3 - << 'PYEOF'
+          import json, urllib.request, os
+          from pathlib import Path
+
+          report_path = Path("submissions/monitor_report.json")
+          if not report_path.exists():
+              exit(0)
+
+          report = json.loads(report_path.read_text())
+          lines = ["## 📰 Solvea PR Coverage Report\n"]
+
+          for stem, data in report.get("results", {}).items():
+              title = data.get("title", stem)[:50]
+              lines.append(f"**{title}**")
+              for pname, pdata in data.get("platforms", {}).items():
+                  live    = "✅" if pdata.get("live") else "❌"
+                  indexed = "📑" if pdata.get("indexed") else "⏳"
+                  lines.append(f"  {live}{indexed} {pname}")
+              lines.append("")
+
+          msg = "\n".join(lines)
+
+          # Get token
+          ak = os.environ.get("DINGTALK_APP_KEY", "")
+          sk = os.environ.get("DINGTALK_APP_SECRET", "")
+          conv_id = os.environ.get("DINGTALK_CONV_ID", "")
+          if not all([ak, sk, conv_id]):
+              print("DingTalk not configured, skipping")
+              exit(0)
+
+          url = "https://api.dingtalk.com/v1.0/oauth2/accessToken"
+          data = json.dumps({"appKey": ak, "appSecret": sk}).encode()
+          req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+          token = json.loads(urllib.request.urlopen(req).read()).get("accessToken")
+
+          payload = {"robotCode": ak, "openConversationId": conv_id,
+                     "msgKey": "sampleMarkdown",
+                     "msgParam": json.dumps({"title": "PR Coverage Report", "text": msg})}
+          req2 = urllib.request.Request(
+              "https://api.dingtalk.com/v1.0/robot/groupMessages/send",
+              data=json.dumps(payload).encode(),
+              headers={"Content-Type": "application/json", "x-acs-dingtalk-access-token": token}
+          )
+          urllib.request.urlopen(req2, timeout=10)
+          print("DingTalk notified")
+          PYEOF
