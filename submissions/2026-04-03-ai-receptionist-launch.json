@@ -1,0 +1,24 @@
+{
+  "release": "2026-04-03-ai-receptionist-launch",
+  "title": "Solvea Launches AI Receptionist Platform for Small Businesses",
+  "submitted_at": "2026-04-03",
+  "platforms": {
+    "us": {
+      "einpresswire": {"status": "account_created", "account": "boyuan@solvea.cx", "pending_payment": true},
+      "prlog":        {"status": "pending"},
+      "openpr":       {"status": "pending"},
+      "pr_com":       {"status": "pending"},
+      "1888press":    {"status": "pending"},
+      "prfree":       {"status": "pending"},
+      "newswiretoday":{"status": "pending"},
+      "prunderground":{"status": "pending"}
+    },
+    "jp": {
+      "prtimes":      {"status": "pending_payment"},
+      "dreamnews":    {"status": "pending"},
+      "valupress":    {"status": "pending"},
+      "atpress":      {"status": "pending"},
+      "prtree":       {"status": "pending"}
+    }
+  }
+}
