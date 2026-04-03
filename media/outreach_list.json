@@ -1,0 +1,110 @@
+{
+  "last_updated": "2026-04-03",
+  "media": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "创业与科技融资",
+      "region": "US",
+      "tier": 1,
+      "contacts": [
+        {"name": "Anna Heim",    "email": "anna.heim@techcrunch.com",    "beat": "SaaS/AI创业/定价"},
+        {"name": "Kyle Wiggers", "email": "kyle.wiggers@techcrunch.com", "beat": "AI技术"},
+        {"name": "Tips",         "email": "tips@techcrunch.com",         "beat": "编辑部公邮"}
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03",
+      "notes": "3封pitch已发：Anna Heim / Kyle Wiggers / tips@"
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com",
+      "category": "科技产品与文化",
+      "region": "US",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": ""
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com",
+      "category": "科技与社会深度",
+      "region": "US",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": ""
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "技术深度分析",
+      "region": "US",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": ""
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI & 企业科技",
+      "region": "US",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": ""
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "学术级科技前沿",
+      "region": "US",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": ""
+    },
+    {
+      "name": "The Information",
+      "url": "https://www.theinformation.com",
+      "category": "AI行业深度独家",
+      "region": "US",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": "付费媒体，影响力强，需要独家角度"
+    },
+    {
+      "name": "Import AI (Newsletter)",
+      "url": "https://jack-clark.net",
+      "category": "Jack Clark的AI周报",
+      "region": "US",
+      "tier": 2,
+      "contacts": [
+        {"name": "Jack Clark", "email": "jack@jack-clark.net", "beat": "AI前沿"}
+      ],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": "newsletter受众为AI从业者，适合技术角度"
+    },
+    {
+      "name": "AI News",
+      "url": "https://www.artificialintelligence-news.com",
+      "category": "AI行业动态",
+      "region": "US",
+      "tier": 2,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": ""
+    }
+  ]
+}
