@@ -1,42 +1,74 @@
 {
   "last_updated": "2026-04-03",
+  "total_pitched": 26,
   "media": [
     {
       "name": "TechCrunch",
       "url": "https://techcrunch.com",
-      "category": "创业与科技融资",
+      "category": "创业/融资",
       "region": "US",
       "tier": 1,
       "contacts": [
-        {"name": "Anna Heim",    "email": "anna.heim@techcrunch.com",    "beat": "SaaS/AI创业/定价"},
-        {"name": "Kyle Wiggers", "email": "kyle.wiggers@techcrunch.com", "beat": "AI技术"},
-        {"name": "Tips",         "email": "tips@techcrunch.com",         "beat": "编辑部公邮"}
+        {
+          "name": "Anna Heim",
+          "email": "anna.heim@techcrunch.com",
+          "beat": "SaaS/AI创业"
+        },
+        {
+          "name": "Kyle Wiggers",
+          "email": "kyle.wiggers@techcrunch.com",
+          "beat": "AI技术"
+        },
+        {
+          "name": "Tips",
+          "email": "tips@techcrunch.com",
+          "beat": "编辑部"
+        }
       ],
       "pitch_status": "sent",
-      "sent_at": "2026-04-03",
-      "notes": "3封pitch已发：Anna Heim / Kyle Wiggers / tips@"
+      "sent_at": "2026-04-03"
     },
     {
       "name": "The Verge",
-      "url": "https://www.theverge.com",
-      "category": "科技产品与文化",
+      "url": "https://theverge.com",
+      "category": "科技产品/文化",
       "region": "US",
       "tier": 1,
-      "contacts": [],
-      "pitch_status": "pending",
-      "sent_at": null,
-      "notes": ""
+      "contacts": [
+        {
+          "name": "Hayden Field",
+          "email": "hayden.field@voxmedia.com",
+          "beat": "AI"
+        },
+        {
+          "name": "Tips",
+          "email": "tips@theverge.com",
+          "beat": "编辑部"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
     },
     {
       "name": "Wired",
-      "url": "https://www.wired.com",
+      "url": "https://wired.com",
       "category": "科技与社会深度",
       "region": "US",
       "tier": 1,
-      "contacts": [],
-      "pitch_status": "pending",
-      "sent_at": null,
-      "notes": ""
+      "contacts": [
+        {
+          "name": "Will Knight",
+          "email": "will_knight@wired.com",
+          "beat": "AI"
+        },
+        {
+          "name": "Press",
+          "email": "press@wired.com",
+          "beat": "编辑部"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
     },
     {
       "name": "Ars Technica",
@@ -44,10 +76,15 @@
       "category": "技术深度分析",
       "region": "US",
       "tier": 1,
-      "contacts": [],
-      "pitch_status": "pending",
-      "sent_at": null,
-      "notes": ""
+      "contacts": [
+        {
+          "name": "Benj Edwards",
+          "email": "benj.edwards@arstechnica.com",
+          "beat": "AI"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
     },
     {
       "name": "VentureBeat",
@@ -55,56 +92,304 @@
       "category": "AI & 企业科技",
       "region": "US",
       "tier": 1,
-      "contacts": [],
-      "pitch_status": "pending",
-      "sent_at": null,
-      "notes": ""
+      "contacts": [
+        {
+          "name": "Carl Franzen",
+          "email": "carl.franzen@venturebeat.com",
+          "beat": "AI"
+        },
+        {
+          "name": "Emilia David",
+          "email": "emilia.david@venturebeat.com",
+          "beat": "AI创业"
+        },
+        {
+          "name": "Tips",
+          "email": "tips@venturebeat.com",
+          "beat": "编辑部"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
     },
     {
       "name": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "url": "https://technologyreview.com",
       "category": "学术级科技前沿",
       "region": "US",
       "tier": 1,
-      "contacts": [],
-      "pitch_status": "pending",
-      "sent_at": null,
-      "notes": ""
+      "contacts": [
+        {
+          "name": "Rachel Courtland",
+          "email": "rachel.courtland@technologyreview.com",
+          "beat": "AI"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
     },
     {
       "name": "The Information",
-      "url": "https://www.theinformation.com",
+      "url": "https://theinformation.com",
       "category": "AI行业深度独家",
       "region": "US",
       "tier": 1,
-      "contacts": [],
-      "pitch_status": "pending",
-      "sent_at": null,
-      "notes": "付费媒体，影响力强，需要独家角度"
+      "contacts": [
+        {
+          "name": "Stephanie Palazzolo",
+          "email": "stephanie@theinformation.com",
+          "beat": "AI"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
     },
     {
-      "name": "Import AI (Newsletter)",
+      "name": "Import AI",
       "url": "https://jack-clark.net",
-      "category": "Jack Clark的AI周报",
+      "category": "Jack Clark AI周报",
       "region": "US",
       "tier": 2,
       "contacts": [
-        {"name": "Jack Clark", "email": "jack@jack-clark.net", "beat": "AI前沿"}
+        {
+          "name": "Jack Clark",
+          "email": "jack@jack-clark.net",
+          "beat": "AI前沿"
+        }
       ],
-      "pitch_status": "pending",
-      "sent_at": null,
-      "notes": "newsletter受众为AI从业者，适合技术角度"
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
     },
     {
       "name": "AI News",
-      "url": "https://www.artificialintelligence-news.com",
+      "url": "https://artificialintelligence-news.com",
       "category": "AI行业动态",
       "region": "US",
       "tier": 2,
       "contacts": [],
       "pitch_status": "pending",
       "sent_at": null,
-      "notes": ""
+      "notes": "需通过联系表单"
+    },
+    {
+      "name": "Silicon Republic",
+      "url": "https://siliconrepublic.com",
+      "category": "科技/创业",
+      "region": "UK",
+      "tier": 1,
+      "contacts": [
+        {
+          "name": "Editorial",
+          "email": "editorial@siliconrepublic.com",
+          "beat": "编辑部"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
+    },
+    {
+      "name": "Sifted",
+      "url": "https://sifted.eu",
+      "category": "欧洲科技/创业",
+      "region": "UK",
+      "tier": 1,
+      "contacts": [
+        {
+          "name": "News",
+          "email": "news@sifted.eu",
+          "beat": "新闻"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
+    },
+    {
+      "name": "Silicon UK",
+      "url": "https://silicon.co.uk",
+      "category": "企业科技",
+      "region": "UK",
+      "tier": 1,
+      "contacts": [
+        {
+          "name": "David Howell",
+          "email": "dhowell@netmedia.group",
+          "beat": "主编"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
+    },
+    {
+      "name": "TechRadar",
+      "url": "https://techradar.com",
+      "category": "科技产品评测",
+      "region": "UK",
+      "tier": 2,
+      "contacts": [
+        {
+          "name": "News",
+          "email": "news@techradar.com",
+          "beat": "新闻"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
+    },
+    {
+      "name": "The Next Web",
+      "url": "https://thenextweb.com",
+      "category": "科技/创业",
+      "region": "UK/NL",
+      "tier": 1,
+      "contacts": [
+        {
+          "name": "Info",
+          "email": "info@thenextweb.com",
+          "beat": "编辑部"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
+    },
+    {
+      "name": "Heise Online",
+      "url": "https://heise.de",
+      "category": "IT新闻/技术",
+      "region": "DE",
+      "tier": 1,
+      "contacts": [
+        {
+          "name": "Sylke Wilde",
+          "email": "sylke.wilde@heise-medien.de",
+          "beat": "PR联系人"
+        },
+        {
+          "name": "Webmaster",
+          "email": "webmaster@heise.de",
+          "beat": "编辑部"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
+    },
+    {
+      "name": "t3n",
+      "url": "https://t3n.de",
+      "category": "数字科技/创业",
+      "region": "DE",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": "需通过网站联系表"
+    },
+    {
+      "name": "Gründerszene",
+      "url": "https://gruenderszene.de",
+      "category": "德国创业媒体",
+      "region": "DE",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": "需通过网站联系表"
+    },
+    {
+      "name": "Computerwoche",
+      "url": "https://computerwoche.de",
+      "category": "IT管理",
+      "region": "DE",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": "需通过网站联系表"
+    },
+    {
+      "name": "BRIDGE",
+      "url": "https://thebridge.jp",
+      "category": "日本科技/创业",
+      "region": "JP",
+      "tier": 1,
+      "contacts": [
+        {
+          "name": "Contact",
+          "email": "contact@thebridge.jp",
+          "beat": "编辑部"
+        },
+        {
+          "name": "Info",
+          "email": "info@thebridge.jp",
+          "beat": "编辑部"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
+    },
+    {
+      "name": "ASCII.jp",
+      "url": "https://ascii.jp",
+      "category": "日本科技/数字",
+      "region": "JP",
+      "tier": 1,
+      "contacts": [
+        {
+          "name": "Info",
+          "email": "info@ascii.jp",
+          "beat": "编辑部"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
+    },
+    {
+      "name": "Nikkei XTech",
+      "url": "https://xtech.nikkei.com",
+      "category": "日经AI/前沿技术",
+      "region": "JP",
+      "tier": 1,
+      "contacts": [
+        {
+          "name": "Info",
+          "email": "info@xtech.nikkei.com",
+          "beat": "编辑部"
+        }
+      ],
+      "pitch_status": "sent",
+      "sent_at": "2026-04-03"
+    },
+    {
+      "name": "ITmedia",
+      "url": "https://itsmedia.co.jp",
+      "category": "日本IT新闻",
+      "region": "JP",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": "需通过网站联系表"
+    },
+    {
+      "name": "The Japan Times (Tech)",
+      "url": "https://japantimes.co.jp",
+      "category": "英文日本新闻",
+      "region": "JP",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": "需通过网站联系表"
+    },
+    {
+      "name": "Nikkei Asia",
+      "url": "https://asia.nikkei.com",
+      "category": "亚洲科技/商业",
+      "region": "JP",
+      "tier": 1,
+      "contacts": [],
+      "pitch_status": "pending",
+      "sent_at": null,
+      "notes": "需通过网站联系表"
     }
   ]
 }
