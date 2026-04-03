@@ -1,0 +1,61 @@
+name: Auto Submit Press Release
+
+on:
+  push:
+    paths:
+      - 'releases/**.md'
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests selenium playwright 2>/dev/null || true
+
+      - name: Detect changed release files
+        id: changed
+        run: |
+          FILES=$(git diff --name-only HEAD~1 HEAD -- 'releases/*.md' | tr '\n' ' ')
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+          echo "Changed: $FILES"
+
+      - name: Submit EN release
+        if: contains(steps.changed.outputs.files, '-en.md')
+        env:
+          ACCOUNT_EMAIL: ${{ secrets.PR_ACCOUNT_EMAIL }}
+          ACCOUNT_PASSWORD: ${{ secrets.PR_ACCOUNT_PASSWORD }}
+        run: |
+          for f in ${{ steps.changed.outputs.files }}; do
+            if [[ "$f" == *"-en.md" ]]; then
+              echo "Submitting: $f"
+              python3 scripts/submit_all.py "$f" || true
+            fi
+          done
+
+      - name: Submit JP release
+        if: contains(steps.changed.outputs.files, '-jp.md')
+        env:
+          ACCOUNT_EMAIL: ${{ secrets.PR_ACCOUNT_EMAIL }}
+          ACCOUNT_PASSWORD: ${{ secrets.PR_ACCOUNT_PASSWORD }}
+        run: |
+          for f in ${{ steps.changed.outputs.files }}; do
+            if [[ "$f" == *"-jp.md" ]]; then
+              echo "Submitting: $f"
+              python3 scripts/submit_all.py "$f" || true
+            fi
+          done
+
+      - name: Commit submission results
+        run: |
+          git config user.name "PR Agent"
+          git config user.email "boyuan@solvea.cx"
+          git add submissions/
+          git diff --staged --quiet || git commit -m "chore: update submission results [skip ci]"
+          git push
